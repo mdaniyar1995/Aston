@@ -1,4 +1,4 @@
-public class Test2 implements Runnable {
+//public class Test2 implements Runnable {
 //
 //    @Override
 //    public void run() {

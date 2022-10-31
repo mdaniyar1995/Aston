@@ -1,20 +1,17 @@
 public class Test extends Thread {
 
-//    public void run() {
-//        for (int i = 1; i <3 ; i++) {
-//            System.out.println(i + "..");
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//        Test test = new Test();
-//
-////        test.start();
-//        test.run();
-//    }
+    public void run() {
+        for (int i = 1; i <3 ; i++) {
+            System.out.println(i + "..");
+        }
+    }
+
+    public static void main(String[] args) {
+        Test test = new Test();
 
 
-
+        test.run();
+    }
 }
 
 //    public static void main(String[] args) {
